@@ -23,7 +23,7 @@ Camera::Camera(qreal dpi, const QSize & size, const QPointF & logicPos)
 	}*/
 	
 	//Object tests
-	/*QList<QPointF> nodes;
+	QList<QPointF> nodes;
 	nodes.append(QPointF(0, 0));
 	nodes.append(QPointF(0, 2));
 	nodes.append(QPointF(2, 2));
@@ -68,7 +68,7 @@ Camera::Camera(qreal dpi, const QSize & size, const QPointF & logicPos)
 	appendNewDisplayedObject_WithoutRecalculating(new DisplayedORGate(QPointF(2, 3), 1));
 	appendNewDisplayedObject_WithoutRecalculating(new DisplayedXORGate(QPointF(2, 5), 1));
 
-	QList<QPointF> nodes;
+	/*QList<QPointF> nodes;
 	nodes.append(QPointF(0, 0));
 	nodes.append(QPointF(0, 2));
 	nodes.append(QPointF(2, 2));
@@ -105,10 +105,10 @@ Camera::Camera(qreal dpi, const QSize & size, const QPointF & logicPos)
 		appendNewDisplayedObject_WithoutRecalculating(new DisplayedXORGate(QPointF(3, 5)));
 	}*/
 
-	for (int i = 0; i < 60; i++)
+	/*for (int i = 0; i < 60; i++)
 	{
 		appendNewDisplayedObject_WithoutRecalculating(new DisplayedORGate(QPointF(-3, -4 )));
-	}
+	}*/
 
 #pragma endregion
 
